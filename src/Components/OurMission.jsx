@@ -2,7 +2,7 @@ import { Eye, Target } from "lucide-react";
 
 function OurMission() {
   return (
-    <section className="bg-[#171f34] py-20">
+    <section className="bg-[#171f34] py-20"  id="mission-vision">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="overflow-hidden rounded-lg border border-white/10 lg:grid lg:grid-cols-2">
           {/* Mission */}

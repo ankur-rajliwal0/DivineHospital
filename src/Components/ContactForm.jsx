@@ -36,7 +36,7 @@ function ContactForm() {
             </p>
 
             <h3 className="text-red-600 text-4xl font-bold mt-8">
-              +1 800-999-HELP
+            +91 14135 58254
             </h3>
 
             <p className="text-sm text-gray-500 italic mt-3">
@@ -58,11 +58,11 @@ function ContactForm() {
                 </p>
 
                 <p className="text-lg mt-1">
-                  100 Divine Plaza,
+                 53 Engeners Colony
                   <br />
-                  Excellence District
+                  Sirsi Road Panchwala
                   <br />
-                  New York, NY 10001
+                  JAIPUR
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ function ContactForm() {
                 </p>
 
                 <p className="text-lg mt-1">
-                  +1 800-DIVINE-CARE
+                  +91 14135 58254
                 </p>
               </div>
             </div>
@@ -94,7 +94,7 @@ function ContactForm() {
                 </p>
 
                 <p className="text-lg mt-1">
-                  care@divinehospital.com
+                 hospitaldivine378@gmail.com.com
                 </p>
               </div>
             </div>

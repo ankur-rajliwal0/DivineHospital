@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
+import Logo from "/DivineHospitallogo.png"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,9 +20,7 @@ function Navbar() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
         {/* Logo */}
         <NavLink to="/">
-          <h1 className="text-3xl font-serif font-bold text-black md:text-4xl">
-            Divine Hospital
-          </h1>
+          <img src={Logo} alt="Divine Hsopital Logo " className="w-18" />
         </NavLink>
 
         {/* Desktop Menu */}

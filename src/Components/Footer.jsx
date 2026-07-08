@@ -94,14 +94,14 @@ function Footer() {
           </h3>
 
           <div className="space-y-4 text-gray-400">
-            <p>Hisar, Haryana</p>
+            <p>53 Engeners Colony Sirsi Road Panchwala, JAIPUR </p>
 
             <p className="flex items-center gap-3">
               <FaPhoneAlt className="text-[#d2af61]" />
-              +91 98765 43210
+              +91 14135 58254
             </p>
 
-            <p>info@divinehospital.com</p>
+            <p>hospitaldivine378@gmail.com.com</p>
           </div>
         </div>
       </div>
@@ -115,21 +115,21 @@ function Footer() {
 
           <div className="flex items-center gap-3">
             <a
-              href="#"
+              href="https://www.facebook.com/"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:bg-[#c79a4a] hover:border-[#c79a4a]"
             >
               <FaFacebookF size={14} />
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/divinehospitall"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:bg-[#c79a4a] hover:border-[#c79a4a]"
             >
               <FaInstagram size={14} />
             </a>
 
             <a
-              href="#"
+              href="http://in.linkedin.com/"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:bg-[#c79a4a] hover:border-[#c79a4a]"
             >
               <FaLinkedinIn size={14} />

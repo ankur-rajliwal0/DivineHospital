@@ -2,37 +2,43 @@ import React from "react";
 
 function OpdTiming() {
   const timings = [
-    {
-      doctor: "Dr. Rajesh Sharma",
-      department: "General & Laparoscopic Surgeon",
-      time: "09:00 AM - 01:00 PM",
-    },
-    {
-      doctor: "Dr. Amit Verma",
-      department: "Orthopedic & Joint Replacement",
-      time: "10:00 AM - 02:00 PM",
-    },
-    {
-      doctor: "Dr. Vivek Singh",
-      department: "Orthopedic & Joint Replacement",
-      time: "05:00 PM - 07:00 PM",
-    },
-    {
-      doctor: "Dr. Neha Gupta",
-      department: "General Physician",
-      time: "09:00 AM - 12:00 PM",
-    },
-    {
-      doctor: "Dr. Rahul Mehta",
-      department: "Urologist",
-      time: "04:00 PM - 06:00 PM",
-    },
-    {
-      doctor: "Dr. Ankit Jain",
-      department: "Anesthesiologist",
-      time: "On Call",
-    },
-  ];
+  {
+    doctor: "Dr. Aalok Chhabra",
+    qualification: "MBBS, MS",
+    department: "General & Laparoscopic Surgeon",
+    time: "10:00 AM – 02:00 PM",
+  },
+  {
+    doctor: "Dr. Ankit Jaipal",
+    qualification: "MBBS, MS",
+    department: "Orthopedic & Joint Replacement Surgeon",
+    time: "10:00 AM – 02:00 PM | 06:00 PM – 08:00 PM",
+  },
+  {
+    doctor: "Dr. Ajay Saini",
+    qualification: "MBBS, MS",
+    department: "Orthopedic & Joint Replacement Surgeon",
+    time: "06:00 PM – 08:00 PM",
+  },
+  {
+    doctor: "Dr. Yogendra Singh",
+    qualification: "MBBS, MD",
+    department: "General Physician",
+    time: "10:00 AM – 02:00 PM",
+  },
+  {
+    doctor: "Dr. Deepesh Kalra",
+    qualification: "MBBS, MS, MCh",
+    department: "Urologist",
+    time: "06:00 PM – 08:00 PM",
+  },
+  {
+    doctor: "Dr. Isha Bijaniya",
+    qualification: "MBBS, MD",
+    department: "Anesthesiologist",
+    time: "10:00 AM – 02:00 PM | 06:00 PM – 08:00 PM",
+  },
+];
 
   return (
     <section className="bg-[#161f33] py-20">
@@ -90,12 +96,12 @@ function OpdTiming() {
             />
 
             <select className="w-full border-b border-gray-300 bg-transparent pb-3 outline-none">
-              <option>Select Doctor</option>
-              <option>General & Laparoscopic Surgeon</option>
-              <option>Orthopedic Surgeon</option>
-              <option>General Physician</option>
-              <option>Urologist</option>
-              <option>Anesthesiologist</option>
+              <option>Dr. Aalok Chhabra</option>
+<option>Dr. Ankit Jaipal</option>
+<option>Dr. Ajay Saini</option>
+<option>Dr. Yogendra Singh</option>
+<option>Dr. Deepesh Kalra</option>
+<option>Dr. Isha Bijaniya</option>
             </select>
 
             <input

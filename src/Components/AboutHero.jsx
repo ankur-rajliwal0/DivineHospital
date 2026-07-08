@@ -1,9 +1,20 @@
 import { ArrowRight } from "lucide-react";
-import AboutHeroPic from "../assets/images/AboutHeroPic.png";
+import AboutHeroPic from "../assets/images/DivineHositalAboutimg.jpeg";
 
 function AboutHero() {
+  const scrollToMission = () => {
+    const section = document.getElementById("mission-vision");
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
-    <section className="bg-[#faf9f7] py-20 lg:py-28 overflow-hidden">
+    <section className="overflow-hidden bg-[#faf9f7] py-20 lg:py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-16 px-5 lg:grid-cols-2 lg:px-8">
         {/* Left Content */}
         <div>
@@ -24,14 +35,21 @@ function AboutHero() {
             has made us a trusted destination for quality treatment.
           </p>
 
+          {/* Buttons */}
           <div className="mt-10 flex flex-wrap gap-4">
-            <button className="flex items-center gap-2 rounded bg-[#182238] px-7 py-4 text-sm font-semibold text-white transition hover:bg-[#0f172a]">
-              Explore Our History
+            <button
+              onClick={scrollToMission}
+              className="flex items-center gap-2 rounded bg-[#182238] px-7 py-4 text-sm font-semibold text-white transition duration-300 hover:bg-[#0f172a]"
+            >
+              Our Mission
               <ArrowRight size={18} />
             </button>
 
-            <button className="rounded border border-gray-300 bg-white px-7 py-4 text-sm font-semibold text-[#111] transition hover:bg-gray-100">
-              Meet Our Leadership
+            <button
+              onClick={scrollToMission}
+              className="rounded border border-gray-300 bg-white px-7 py-4 text-sm font-semibold text-[#111] transition duration-300 hover:bg-gray-100"
+            >
+              Our Vision
             </button>
           </div>
         </div>
@@ -45,12 +63,12 @@ function AboutHero() {
           />
 
           {/* Floating Card */}
-          <div className="absolute -bottom-8 -left-8 w-52 rounded-lg bg-white p-6 shadow-2xl">
+          <div className="absolute -bottom-8 -left-8 w-56 rounded-xl bg-white p-6 shadow-2xl">
             <h3 className="text-4xl font-bold text-[#9b7b39]">50+</h3>
 
             <p className="mt-3 text-sm leading-6 text-gray-600">
-              Years of providing trusted healthcare with compassion and
-              excellence.
+              Years of providing trusted healthcare with compassion,
+              excellence, and patient-centered medical services.
             </p>
           </div>
         </div>

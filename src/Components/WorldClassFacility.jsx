@@ -7,8 +7,8 @@ import {
   BadgePlus,
 } from "lucide-react";
 
-import AdvanceIcuPIC from "../assets/images/AdvancedicuPic.webp";
-import EmergencyAmbulacePic from "../assets/images/Emergency&AmbulacePic.webp";
+import AdvanceIcuPIC from "../assets/images/Icu.jpg";
+import EmergencyAmbulacePic from "../assets/images/Ambulace.jpg";
 
 function WorldClassFacility() {
   return (
@@ -96,9 +96,12 @@ function WorldClassFacility() {
               </p>
             </div>
 
-            <button className="absolute bottom-8 right-8 rounded bg-[#f6d185] px-4 py-2 text-sm font-semibold text-black transition hover:bg-white">
+            <a
+              href="tel:+911413558254"
+              className="absolute bottom-8 right-8 rounded bg-[#f6d185] px-4 py-2 text-sm font-semibold text-black transition hover:bg-white"
+            >
               Call Now
-            </button>
+            </a>
           </div>
 
           {/* Bottom Cards */}

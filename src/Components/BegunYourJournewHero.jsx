@@ -1,6 +1,8 @@
 import { CalendarDays } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 function BegunYourJournewHero() {
+  const navigate = useNavigate();
   return (
     <section className="bg-[#faf9f7] py-24">
       <div className="mx-auto max-w-5xl px-5 text-center">
@@ -18,8 +20,12 @@ function BegunYourJournewHero() {
         </p>
 
         {/* Button */}
+        {/* Button */}
         <div className="mt-12">
-          <button className="group inline-flex items-center gap-3 rounded-md bg-[#8b6a1f] px-10 py-5 text-sm font-semibold uppercase tracking-[2px] text-white shadow-lg transition-all duration-300 hover:bg-[#735618] hover:shadow-2xl">
+          <button
+            onClick={() => navigate("/contact")}
+            className="group inline-flex items-center gap-3 rounded-md bg-[#8b6a1f] px-10 py-5 text-sm font-semibold uppercase tracking-[2px] text-white shadow-lg transition-all duration-300 hover:bg-[#735618] hover:shadow-2xl"
+          >
             Schedule an Appointment
 
             <CalendarDays
