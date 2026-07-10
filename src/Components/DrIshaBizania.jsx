@@ -5,6 +5,7 @@ import doctor from "../assets/images/DrIshaBizania.jpeg";
 
 function DrIshaBizania() {
   const navigate = useNavigate();
+
   return (
     <section className="bg-[#faf9f7] py-20">
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-2 lg:px-8">
@@ -14,7 +15,7 @@ function DrIshaBizania() {
 
           <img
             src={doctor}
-            alt="Doctor"
+            alt="Dr. Isha Bizania"
             className="relative z-10 h-[620px] w-full rounded-2xl object-cover shadow-xl"
           />
         </div>
@@ -30,15 +31,18 @@ function DrIshaBizania() {
           </h2>
 
           <p className="mt-2 text-lg font-medium text-[#8b6a2d]">
-            MS (Anesthesiology)
+            MBBS, MD (Anesthesiology)
           </p>
 
           <p className="mt-8 leading-8 text-gray-600">
-            Dr. Isha Bizania is an experienced Orthopedic Surgeon with expertise
-            in trauma care, fracture management, joint replacement surgery, and
-            sports injuries. He is dedicated to providing evidence-based,
-            compassionate care while helping patients regain mobility and lead
-            pain-free lives.
+            Dr. Isha Bizania is serving as an Assistant Professor at Mahatma
+            Gandhi Medical College and has an extensive clinical experience of
+            over 12 years in the field of Anesthesiology. She has special
+            interests in Pediatric Anesthesia, Obstetric & Gynecological
+            Anesthesia, Pain Management, Orthopedic Anesthesia, and
+            perioperative patient care. Known for her excellent clinical skills,
+            dedication, and patient-centered approach, she ensures safe and
+            effective anesthesia management for every patient.
           </p>
 
           {/* Highlights */}
@@ -48,11 +52,13 @@ function DrIshaBizania() {
 
               <div>
                 <h4 className="font-semibold text-[#111]">
-                  12+ Years of Experience
+                  12+ Years of Clinical Experience
                 </h4>
 
                 <p className="mt-1 text-gray-600">
-                  Successfully treated thousands of orthopedic and trauma cases.
+                  Serving as Assistant Professor at Mahatma Gandhi Medical
+                  College with extensive experience in anesthesiology and
+                  perioperative patient care.
                 </p>
               </div>
             </div>
@@ -62,12 +68,13 @@ function DrIshaBizania() {
 
               <div>
                 <h4 className="font-semibold text-[#111]">
-                  Education & Training
+                  Professional Experience
                 </h4>
 
                 <p className="mt-1 text-gray-600">
-                  MBBS, MS (Orthopedics) with advanced training in Joint
-                  Replacement Surgery.
+                  Consultant at Seva Yatan Hospital (2014–2017), Senior Resident
+                  at SMS Hospital (2017–2020), Sevayatan Hospital (2020–2022),
+                  and Assistant Professor at MGUMST (2022–Present).
                 </p>
               </div>
             </div>
@@ -81,8 +88,9 @@ function DrIshaBizania() {
                 </h4>
 
                 <p className="mt-1 text-gray-600">
-                  Knee Replacement, Hip Replacement, Fracture Surgery, Sports
-                  Injuries, Arthritis Treatment and Trauma Care.
+                  Pediatric Anesthesia, Obstetric & Gynecological Anesthesia,
+                  Pain Management, Orthopedic Anesthesia, Nerve Blocks and
+                  Comprehensive Perioperative Care.
                 </p>
               </div>
             </div>

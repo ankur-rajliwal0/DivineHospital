@@ -5,6 +5,8 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkerAlt,
 } from "react-icons/fa";
 
 function Footer() {
@@ -90,18 +92,47 @@ function Footer() {
         {/* Contact */}
         <div>
           <h3 className="mb-5 font-semibold text-[#d2af61]">
-            Contact
+            Contact Us
           </h3>
 
           <div className="space-y-4 text-gray-400">
-            <p>53 Engeners Colony Sirsi Road Panchwala, JAIPUR </p>
+            <p className="flex items-start gap-3">
+              <FaMapMarkerAlt className="mt-1 text-[#d2af61]" />
+              53 Engineer's Colony, Sirsi Road, Panchyawala, Jaipur, Rajasthan - 302034
+            </p>
 
             <p className="flex items-center gap-3">
               <FaPhoneAlt className="text-[#d2af61]" />
-              +91 14135 58254
+              <a
+                href="tel:+911413558254"
+                className="transition hover:text-white"
+              >
+                +91 14135 58254
+              </a>
             </p>
 
-            <p>hospitaldivine378@gmail.com.com</p>
+            <p className="flex items-center gap-3">
+              <FaEnvelope className="text-[#d2af61]" />
+              <a
+                href="mailto:hospitaldivine378@gmail.com"
+                className="transition hover:text-white"
+              >
+                hospitaldivine378@gmail.com
+              </a>
+            </p>
+
+            {/* Google Map */}
+            <div className="mt-6 overflow-hidden rounded-xl border border-white/10 shadow-lg">
+              <iframe
+                title="Divine Hospital Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.4574607331224!2d75.7227022!3d26.920708400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db30023f4231b%3A0x1da475c69f259d0e!2sDivine%20Hospital!5e0!3m2!1sen!2sin!4v1783504518253!5m2!1sen!2sin"
+                className="h-56 w-full"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -116,21 +147,27 @@ function Footer() {
           <div className="flex items-center gap-3">
             <a
               href="https://www.facebook.com/"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:bg-[#c79a4a] hover:border-[#c79a4a]"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:border-[#c79a4a] hover:bg-[#c79a4a]"
             >
               <FaFacebookF size={14} />
             </a>
 
             <a
               href="https://www.instagram.com/divinehospitall"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:bg-[#c79a4a] hover:border-[#c79a4a]"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:border-[#c79a4a] hover:bg-[#c79a4a]"
             >
               <FaInstagram size={14} />
             </a>
 
             <a
-              href="http://in.linkedin.com/"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:bg-[#c79a4a] hover:border-[#c79a4a]"
+              href="https://in.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:border-[#c79a4a] hover:bg-[#c79a4a]"
             >
               <FaLinkedinIn size={14} />
             </a>

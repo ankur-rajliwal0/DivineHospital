@@ -2,43 +2,43 @@ import React from "react";
 
 function OpdTiming() {
   const timings = [
-  {
-    doctor: "Dr. Aalok Chhabra",
-    qualification: "MBBS, MS",
-    department: "General & Laparoscopic Surgeon",
-    time: "10:00 AM – 02:00 PM",
-  },
-  {
-    doctor: "Dr. Ankit Jaipal",
-    qualification: "MBBS, MS",
-    department: "Orthopedic & Joint Replacement Surgeon",
-    time: "10:00 AM – 02:00 PM | 06:00 PM – 08:00 PM",
-  },
-  {
-    doctor: "Dr. Ajay Saini",
-    qualification: "MBBS, MS",
-    department: "Orthopedic & Joint Replacement Surgeon",
-    time: "06:00 PM – 08:00 PM",
-  },
-  {
-    doctor: "Dr. Yogendra Singh",
-    qualification: "MBBS, MD",
-    department: "General Physician",
-    time: "10:00 AM – 02:00 PM",
-  },
-  {
-    doctor: "Dr. Deepesh Kalra",
-    qualification: "MBBS, MS, MCh",
-    department: "Urologist",
-    time: "06:00 PM – 08:00 PM",
-  },
-  {
-    doctor: "Dr. Isha Bijaniya",
-    qualification: "MBBS, MD",
-    department: "Anesthesiologist",
-    time: "10:00 AM – 02:00 PM | 06:00 PM – 08:00 PM",
-  },
-];
+    {
+      doctor: "Dr. Aalok Chhabra",
+      qualification: "MBBS, MS",
+      department: "General & Laparoscopic Surgeon",
+      time: "10:00 AM – 02:00 PM",
+    },
+    {
+      doctor: "Dr. Ankit Jaipal",
+      qualification: "MBBS, MS",
+      department: "Orthopedic & Joint Replacement Surgeon",
+      time: "10:00 AM – 02:00 PM | 06:00 PM – 08:00 PM",
+    },
+    {
+      doctor: "Dr. Bhanu Kaushik",
+      qualification: "MBBS, MS",
+      department: "urologist",
+      time: "06:00 PM – 08:00 PM",
+    },
+    {
+      doctor: "Dr. Yogendra Singh",
+      qualification: "MBBS, MD",
+      department: "General Physician",
+      time: "10:00 AM – 02:00 PM",
+    },
+    {
+      doctor: "Dr. Deepesh Kalra",
+      qualification: "MBBS, MS, MCh",
+      department: "Urologist",
+      time: "06:00 PM – 08:00 PM",
+    },
+    {
+      doctor: "Dr. Isha Bijaniya",
+      qualification: "MBBS, MD",
+      department: "Anesthesiologist",
+      time: "10:00 AM – 02:00 PM | 06:00 PM – 08:00 PM",
+    },
+  ];
 
   return (
     <section className="bg-[#161f33] py-20">
@@ -97,11 +97,11 @@ function OpdTiming() {
 
             <select className="w-full border-b border-gray-300 bg-transparent pb-3 outline-none">
               <option>Dr. Aalok Chhabra</option>
-<option>Dr. Ankit Jaipal</option>
-<option>Dr. Ajay Saini</option>
-<option>Dr. Yogendra Singh</option>
-<option>Dr. Deepesh Kalra</option>
-<option>Dr. Isha Bijaniya</option>
+              <option>Dr. Ankit Jaipal</option>
+              <option>Dr. Bhanu Kaushik</option>
+              <option>Dr. Yogendra Singh</option>
+              <option>Dr. Deepesh Kalra</option>
+              <option>Dr. Isha Bijaniya</option>
             </select>
 
             <input
