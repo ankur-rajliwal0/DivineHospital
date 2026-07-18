@@ -12,8 +12,8 @@ function EminentSpecialist() {
     {
       image: doctor2,
       specialty: "Anesthesiology",
-      name: "Dr. Isha Bizania",
-      qualification: "MBBS MD",
+      name: "Dr. Isha bijarnia",
+      qualification: "Associate Professor",
     },
   ];
 

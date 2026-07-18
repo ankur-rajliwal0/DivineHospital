@@ -15,7 +15,7 @@ function DrIshaBizania() {
 
           <img
             src={doctor}
-            alt="Dr. Isha Bizania"
+            alt="Dr. Isha bijarnia"
             className="relative z-10 h-[620px] w-full rounded-2xl object-cover shadow-xl"
           />
         </div>
@@ -27,11 +27,11 @@ function DrIshaBizania() {
           </span>
 
           <h2 className="mt-6 font-serif text-5xl font-bold text-[#111]">
-            Dr. Isha Bizania
+            Dr. Isha bijarnia
           </h2>
 
           <p className="mt-2 text-lg font-medium text-[#8b6a2d]">
-            MBBS, MD (Anesthesiology)
+           Associate Professor
           </p>
 
           <p className="mt-8 leading-8 text-gray-600">
