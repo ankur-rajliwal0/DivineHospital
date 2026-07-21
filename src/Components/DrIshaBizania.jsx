@@ -35,7 +35,7 @@ function DrIshaBizania() {
           </p>
 
           <p className="mt-8 leading-8 text-gray-600">
-            Dr. Isha Bizania is serving as an Assistant Professor at Mahatma
+            Dr. Isha Bizania is serving as an Associate Professor at Mahatma
             Gandhi Medical College and has an extensive clinical experience of
             over 12 years in the field of Anesthesiology. She has special
             interests in Pediatric Anesthesia, Obstetric & Gynecological
